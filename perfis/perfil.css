@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #141414;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+    color: white;
+    max-width: 80%;
+}
+body .logo{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+
+}
+.vic{
+    position: relative;
+    height: 15vh;
+    width: 15vh;
+    object-fit: cover;
+
+    padding: 50px;
+
+}
+.dry {
+    position: relative;
+    height: 15vh;
+    width: 15vh;
+    object-fit: cover;
+
+    padding: 50px;
+
+}
+.fum {
+    position: relative;
+    height: 15vh;
+    width: 15vh;
+    object-fit: cover;
+    border: 10vh;
+
+    padding: 50px;
+
+}
+.imgp {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    box-sizing: border-box;
+    
+        
+}
+.qm {
+    display: flex;
+    position: relative;
+    margin-top: 30vh;
+    margin-left: 30vh;
+    text-align: center;
+    
+}

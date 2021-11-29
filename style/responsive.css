@@ -1,0 +1,26 @@
+@media screen and (max-width: 700px){
+    header .container{
+        display: flex;
+        flex-direction: row;
+    }
+    .botoes{
+        margin-top: 5px;
+        width: 190px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .descricao{
+        width: 10%;
+    }
+    
+}
+@media screen and (max-width: 800px) {
+    .menu {
+        width: 190px;
+        height: 100px;
+        left: 120px;
+    }
+    
+}

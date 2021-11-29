@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Responsive-->
+    <link rel="stylesheet" href="style/responsive.css"
+    <!---->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <title>Netflix Clone</title>
+</head>
+<body>
+    <header> <!--NETFLIX LOGO e Botoes de CIMA-->
+        <div class="container">
+            <img src="img/logo.png.crdownload" alt="" class="logo">
+            <nav class="menu">
+                <ul>
+                    <li><a class="naveg" href="#" onclick="naveg()">Navegar</a>
+                        <ul>
+                        <li><a href="#" onclick="inicio()">Inicio</a></li>
+                        <li><a href="#" onclick="series()">Séries</a></li>
+                        <li><a href="#" onclick="filmes()">Filmes</a></li>
+                        <li><a href="#" onclick="documentarios()">Bombando</a></li>
+                        <li><a href="#" onclick="mlista()">Minha Lista</a></li>
+                        <li><a href="#" onclick="assistadnv()">Assista de Novo</a></li></li>
+                    </ul>
+                    <div class="header-direita">
+                        <div class="search">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <main> <!--TITULO, DESCRICAO E BOTOES PLAY+INFOR-->
+        <div class="serie-principal">
+            <div class="container">
+                <h3 class="titulo">THE FLASH</h3>
+                <p class="descricao">Um perito forense desperta de um coma com poderes especiais que serão postos à prova na luta contra forças que ameaçam a cidade.</p>
+                <div class="botoes">
+                    <button role="botao"class="botao" onclick="playf()">
+                        <i class="fas fa-play"></i> <!--Icone de PLAY-->
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="botao" class="botao" onclick="infof()">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                        
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="carrosel-filmes"> <!--IMAGENS do Carrossel-->
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/min1.jpg" alt="" srcset="" onclick="min1()">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min2.jpg" alt="" srcset="" onclick="min2()">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min3.jpg" alt="" srcset="" onclick="min3()">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min4.jpg" alt="" srcset="" onclick="min4()">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min5.jpg" alt="" srcset="" onclick="min5()">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min6.jpg" alt="" srcset="" onclick="min6()">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min7.jpg" alt="" srcset="" onclick="min7()">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min8.jpg" alt="" srcset="" onclick="min8()">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min9.jpg" alt="" srcset="" onclick="min9()">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min10.jpg" alt="" srcset="" onclick="min10()">
+    
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://kit.fontawesome.com/a9169d5238.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <script src="js/owl/main.js"></script>
+</body>
+</html>
